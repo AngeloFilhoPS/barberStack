@@ -9,7 +9,7 @@ class AppointmentRepository extends Repository<Appointment>{
         where:{date},
       })
 
-      return findAppointment || null;
+        return findAppointment || null;
   }
 }
 
